@@ -1,0 +1,8 @@
+{
+  "name": "tob-aipm-skills",
+  "version": "0.1.0",
+  "description": "ToB 私有化产品 PM 工作流 skill 集合：从 epic 到 QA 移交全链路覆盖",
+  "author": {
+    "name": "henrywen98"
+  }
+}
