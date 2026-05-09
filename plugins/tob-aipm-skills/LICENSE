@@ -19,6 +19,10 @@ Copyright (c) 2026 Pawel Huryn (https://github.com/phuryn/pm-skills)
 Copyright (c) 2025 Jesse Vincent (https://github.com/obra/superpowers)
 
   - Upstream of: brainstorming (vendored unchanged)
+
+Copyright (c) 2025 Alireza Rezvani (https://github.com/alirezarezvani/claude-skills)
+
+  - Upstream of: code-to-prd (vendored unchanged, includes commands + scripts)
 ────────────────────────────────────────────────────────────────────────────
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

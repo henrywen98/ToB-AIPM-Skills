@@ -1,20 +1,17 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "tob-aipm",
-  "description": "ToB 私有化产品 PM 工作流插件市场：从 epic 到 QA 移交全链路 skill 覆盖",
+  "description": "ToB 私有化产品 PM 工作流插件市场：从 epic 立项到 QA 移交全链路 skill 覆盖",
   "owner": {
     "name": "henrywen98",
     "email": "henrywen98@gmail.com"
   },
-  "metadata": {
-    "pluginRoot": "./plugins"
-  },
   "plugins": [
     {
       "name": "tob-aipm-skills",
-      "source": "./tob-aipm-skills",
-      "description": "ToB 私有化产品 PM 工作流 skill 集合：epic-prd / feature-prd / feature-spec / feature-us / phase-plan / phase-confirm-doc / test-scenarios / dummy-dataset / md-to-docx / brainstorming，从 epic 到 QA 移交全链路覆盖",
-      "version": "0.1.0",
+      "source": "./plugins/tob-aipm-skills",
+      "description": "ToB 私有化产品 PM 工作流 skill 集合：epic-prd / feature-prd / feature-spec / feature-us / phase-plan / phase-confirm-doc / test-scenarios / dummy-dataset / md-to-docx / brainstorming / code-to-prd（反向出 PRD），从 epic 到 QA 移交全链路覆盖",
+      "version": "0.2.0",
       "author": {
         "name": "henrywen98",
         "email": "henrywen98@gmail.com"
@@ -22,21 +19,7 @@
       "homepage": "https://github.com/henrywen98/ToB-AIPM-Skills",
       "repository": "https://github.com/henrywen98/ToB-AIPM-Skills",
       "license": "MIT",
-      "keywords": ["pm", "prd", "tob", "product-management", "spec", "user-story", "test-scenarios"],
-      "category": "product-management"
-    },
-    {
-      "name": "code-to-prd",
-      "source": "./code-to-prd",
-      "description": "从现有代码库逆向生成完整 PRD：自动分析路由、组件、状态管理、API 和用户交互，为每个页面与接口产出可供工程师或 AI 重建的业务文档。支持 React/Vue/Angular/Svelte/Next.js/Nuxt 前端、NestJS/Django/Express/FastAPI 后端及全栈组合。",
-      "version": "2.1.2",
-      "author": {
-        "name": "Alireza Rezvani"
-      },
-      "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/product-team/code-to-prd",
-      "repository": "https://github.com/henrywen98/ToB-AIPM-Skills",
-      "license": "MIT",
-      "keywords": ["prd", "reverse-engineering", "documentation", "code-analysis"],
+      "keywords": ["pm", "prd", "tob", "product-management", "spec", "user-story", "test-scenarios", "code-to-prd", "reverse-engineering"],
       "category": "product-management"
     }
   ]

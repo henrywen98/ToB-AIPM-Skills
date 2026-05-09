@@ -1,6 +1,6 @@
 # 归属与致谢 / Credits
 
-本仓库是 ToB 私有化产品 PM 工作流的 Claude Code marketplace，由两个 plugin 组成：`tob-aipm-skills`（10 个 skill 集合）与 `code-to-prd`（独立工具）。绝大多数 skill 来自社区上游，按 MIT 许可证保留原作者署名；少数为本仓库原创。
+本仓库是 ToB 私有化产品 PM 工作流的 Claude Code marketplace，目前提供单一 plugin `tob-aipm-skills`（11 个 skill 集合，含反向出 PRD 的 `code-to-prd`）。绝大多数 skill 来自社区上游，按 MIT 许可证保留原作者署名；少数为本仓库原创。
 
 ## Skill 来源一览
 
@@ -21,7 +21,6 @@
 ## License 说明
 
 - **本仓库根 `LICENSE`**：MIT © 2026 henrywen98 —— 覆盖 marketplace 元数据与原创 skill。
-- **`plugins/tob-aipm-skills/LICENSE`**：合并 MIT 通知，列出本仓库 + Pawel Huryn + Jesse Vincent 三方版权。
-- **`plugins/code-to-prd/LICENSE`**：上游 MIT 原文，保留 © Alireza Rezvani。
+- **`plugins/tob-aipm-skills/LICENSE`**：合并 MIT 通知，列出本仓库 + Pawel Huryn + Jesse Vincent + Alireza Rezvani 四方版权。
 
 如发现遗漏或署名错误，欢迎提 issue。
